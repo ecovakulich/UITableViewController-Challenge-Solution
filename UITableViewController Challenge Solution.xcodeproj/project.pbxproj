@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1951EAEE22F9916900D7451B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EAED22F9916900D7451B /* AppDelegate.m */; };
-		1951EAF122F9916900D7451B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EAF022F9916900D7451B /* ViewController.m */; };
 		1951EAF422F9916900D7451B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951EAF222F9916900D7451B /* Main.storyboard */; };
 		1951EAF722F9916900D7451B /* UITableViewController_ChallengeSolution.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1951EAF522F9916900D7451B /* UITableViewController_ChallengeSolution.xcdatamodeld */; };
 		1951EAF922F9916A00D7451B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1951EAF822F9916A00D7451B /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		1951EAFF22F9916A00D7451B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EAFE22F9916A00D7451B /* main.m */; };
 		1951EB0922F9916A00D7451B /* UITableViewController_ChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EB0822F9916A00D7451B /* UITableViewController_ChallengeSolutionTests.m */; };
 		1951EB1422F9916A00D7451B /* UITableViewController_ChallengeSolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EB1322F9916A00D7451B /* UITableViewController_ChallengeSolutionUITests.m */; };
+		1951EB2322F999A200D7451B /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951EB2222F999A200D7451B /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		1951EAE922F9916900D7451B /* UITableViewController ChallengeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController ChallengeSolution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1951EAEC22F9916900D7451B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1951EAED22F9916900D7451B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1951EAEF22F9916900D7451B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1951EAF022F9916900D7451B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1951EAF322F9916900D7451B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1951EAF622F9916900D7451B /* UITableViewController_ChallengeSolution.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewController_ChallengeSolution.xcdatamodel; sourceTree = "<group>"; };
 		1951EAF822F9916A00D7451B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		1951EB0F22F9916A00D7451B /* UITableViewController ChallengeSolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeSolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1951EB1322F9916A00D7451B /* UITableViewController_ChallengeSolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeSolutionUITests.m; sourceTree = "<group>"; };
 		1951EB1522F9916A00D7451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1951EB2122F999A200D7451B /* CCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		1951EB2222F999A200D7451B /* CCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,9 @@
 			children = (
 				1951EAEC22F9916900D7451B /* AppDelegate.h */,
 				1951EAED22F9916900D7451B /* AppDelegate.m */,
-				1951EAEF22F9916900D7451B /* ViewController.h */,
-				1951EAF022F9916900D7451B /* ViewController.m */,
 				1951EAF222F9916900D7451B /* Main.storyboard */,
+				1951EB2122F999A200D7451B /* CCTableViewController.h */,
+				1951EB2222F999A200D7451B /* CCTableViewController.m */,
 				1951EAF822F9916A00D7451B /* Assets.xcassets */,
 				1951EAFA22F9916A00D7451B /* LaunchScreen.storyboard */,
 				1951EAFD22F9916A00D7451B /* Info.plist */,
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1951EAE422F9916900D7451B /* Build configuration list for PBXProject "UITableViewController ChallengeSolution" */;
+			buildConfigurationList = 1951EAE422F9916900D7451B /* Build configuration list for PBXProject "UITableViewController Challenge Solution" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1951EAF122F9916900D7451B /* ViewController.m in Sources */,
 				1951EAEE22F9916900D7451B /* AppDelegate.m in Sources */,
 				1951EAFF22F9916A00D7451B /* main.m in Sources */,
 				1951EAF722F9916900D7451B /* UITableViewController_ChallengeSolution.xcdatamodeld in Sources */,
+				1951EB2322F999A200D7451B /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1951EAE422F9916900D7451B /* Build configuration list for PBXProject "UITableViewController ChallengeSolution" */ = {
+		1951EAE422F9916900D7451B /* Build configuration list for PBXProject "UITableViewController Challenge Solution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1951EB1622F9916A00D7451B /* Debug */,

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CCTableViewController.h
 //  UITableViewController ChallengeSolution
 //
 //  Created by Alexander on 06.08.2019.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CCTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
